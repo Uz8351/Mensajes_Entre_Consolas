@@ -1,0 +1,50 @@
+
+
+
+
+Disce quasi semper victurus vive quasi cras moriturus.
+--------------------------------------------------
+Realizado en:
+El programa fue realizado en plataforma
+LINUX Ubuntu 20.04.4 LTS.
+Bajo el standard ANSI C.-C-11
+
+-------------------------------------------------
+***********CARACTERISTICAS DE LA RED**********
+--------------------------------------------------
+enxd03745c56b84: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.27  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::e1fb:835d:5da:e2a3  prefixlen 64  scopeid 0x20<link>
+        ether d0:37:45:c5:6b:84  txqueuelen 1000  (Ethernet)
+        RX packets 655816  bytes 772910795 (772.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 104452  bytes 20676735 (20.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 1835  bytes 200525 (200.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1835  bytes 200525 (200.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.26  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::c61d:4836:b651:a200  prefixlen 64  scopeid 0x20<link>
+        ether 1c:1b:b5:85:a4:d0  txqueuelen 1000  (Ethernet)
+        RX packets 1580  bytes 153010 (153.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1937  bytes 232054 (232.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+-------------------------------------------------------------------------
+Para interactuar por consola usar las IPs de la configuración del
+ordenador donde se ejecute la aplicacion.
+Comandos bajo consola: nc, telnet, como CLIENTE.
+Ejemplos de entrada en el prompt segunda consola linux:
+  :~$ nc 192.168.0.27 8358
+  :~$ telnet
+
+        
+
